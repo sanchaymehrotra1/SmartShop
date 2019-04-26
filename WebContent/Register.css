@@ -1,0 +1,114 @@
+@CHARSET "ISO-8859-1";
+{
+	margin: 0;
+	padding: 0;
+}
+a:link, a:visited {
+  background-color: #f4433600;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-family:'Aladin';
+}
+
+a:hover, a:active {
+  background-color: red;
+  font-style:italic;
+}
+
+body {
+	background-image: url("https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	backgroud-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px;
+	font-family: 'Aladin';
+	color:Black;
+}
+h2{
+	
+	font-family: 'Aladin';
+	color: Black;
+}
+
+.register {
+	
+	width: 500px;
+	margin: auto;
+	color: orange;
+	font-size: 20px; 
+	padding: 20px;
+	border: solid;
+	border-radius: 10px;
+	font-type: italic bold;
+	border-size: 10px;
+	
+}
+
+#register {
+	margin-left: 50px;
+	color:red;
+}
+
+label {
+	color: Black;
+	font-family: 'Aladin';
+	font-size: 20px;
+	font-type: bold;
+	border: hidden;
+	border-width: 1px;
+}
+
+#name{
+	width: 300px;
+	border: outset;
+	border-color: #804600;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	border: solid;
+	border-width: 1px;
+}
+
+#ph {
+	width: 65px;
+	padding: 7px;
+	border: solid;
+	border-radius: 3px;
+	outline: 0;
+	border-width: 1px;
+}
+
+#num {
+	width: 230px;
+	padding: 7px;
+	border: solid;
+	border-radius: 3px;
+	outline: 0;
+	border-width: 1px;
+}
+#male{
+	color: Black;
+	font-family: 'Aladin';
+	font-size: 18px;
+}
+
+#sub {
+	width: 80px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: 'Aladin';
+	font-style: italic;
+	font-weight: 600;
+	border: outset;
+	border-radius: 3px;
+	outline: 0;
+	border-color:Black;
+	border-width: 5px;
+	color:black;
+}

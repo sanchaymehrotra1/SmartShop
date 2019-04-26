@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+    background-repeat:no-repeat;
+}
+a:link, a:visited {
+  background-color: #f4433600;
+  color: #DCDCDC;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-family:'Aladin';
+}
+
+a:hover, a:active {
+  background-color: #2F4F4F;
+  font-style:italic;
+}
+form{
+	padding:50px;
+	border:4px solid #111;
+	text-align:center;
+	position:relative;
+	left:470px;
+	top:100px;
+	font-family:Aladin;
+	font-size:25px;
+}
+input[type=text], input[type=number]{
+	background-color:yellow;
+}
+input[type=submit]{
+	background-color:#BBF0FB;
+	font-size:25px;
+	font-family:Aladin;
+}
